@@ -1,0 +1,99 @@
+h1 {
+    color: #FFC020;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 5rem;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+h2 {
+    padding-top: 3.5rem;
+    font-size: 2rem;
+}
+.yellow-square {
+    background-color: #FFC020;
+    width: 19rem;
+    height: 15rem;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+.header-row {
+    width: 50%;
+}
+img {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    transition: 0.5s
+}
+.hotpaws {
+    left: 20px;
+    width: 70%;
+}
+.janitor {
+    width: 55%;
+}
+.jet {
+    top: 15px;
+    width: 40%;
+}
+.inksy {
+    left: 10px;
+    width: 45%;
+}
+.kana {
+    left: 20px;
+    width: 63%;
+    top: 10px;
+}
+.snooker {
+    right: 10px;
+    width: 70%;
+}
+.roostandor {
+    width: 43%;
+}
+.glokat {
+    top: 10px;
+    width: 50%;
+}
+.name-label {
+    position: relative;
+    font-weight: bold;
+    font-size: 1rem;
+    bottom: 20px;
+    z-index: 2;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+.jet-label {
+    bottom: 0px;
+}
+.kana-label {
+    bottom: -5px;
+}
+.snooker-label {
+    bottom: 5px;
+}
+.glowkat-label {
+    bottom: 0px;
+}
+.janitor-label {
+    bottom: 10px;
+}
+.roostandor-label {
+    bottom: 10px;
+}
+img:hover {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    transform:scale(1.25);
+    z-index:3;
+}
