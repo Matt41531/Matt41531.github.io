@@ -1,4 +1,4 @@
-h1 {
+.character-text-lg {
     color: #FFC020;
     font-weight: bolder;
     font-style: italic;
@@ -39,7 +39,7 @@ img {
     width: 40%;
 }
 .inksy {
-    left: 10px;
+    left: 20px;
     width: 45%;
 }
 .kana {
@@ -73,8 +73,11 @@ a:hover {
     color: white;
     text-decoration: none;
 }
+.hotpaws-label {
+    bottom: 15px;
+}
 .jet-label {
-    bottom: 0px;
+    bottom: -5px;
 }
 .kana-label {
     bottom: -5px;
@@ -91,9 +94,17 @@ a:hover {
 .roostandor-label {
     bottom: 10px;
 }
+.inksy-label {
+    bottom: 14px;
+}
 img:hover {
     -webkit-transform:scale(1.25);
     -moz-transform:scale(1.25);
     transform:scale(1.25);
     z-index:3;
+}
+@media (max-width: 425px) {
+    .mobile-font-size {
+      font-size: 11px;
+    }
 }

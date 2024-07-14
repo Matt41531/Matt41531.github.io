@@ -80,3 +80,9 @@ img:hover {
     transform:scale(1.25);
     z-index:3;
 }
+
+@media (max-width: 425px) {
+    .mobile-font-size {
+      font-size: 11px;
+    }
+}
