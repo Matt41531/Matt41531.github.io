@@ -86,3 +86,47 @@ img:hover {
       font-size: 11px;
     }
 }
+
+svg:hover {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    transform:scale(1.25);
+    z-index:3;
+}
+.prev-arrow {
+    position: absolute;
+    left: 0px;
+    margin-left: 15px;
+    bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.next-arrow {
+    position: absolute;
+    right: 0px;
+    margin-right: 15px;
+    bottom: 0px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 1201px) {
+    .desktop-arrow {
+      display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mobile-arrow {
+      display: none;
+    }
+}
