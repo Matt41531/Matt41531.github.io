@@ -130,3 +130,18 @@ a:hover {
       display: none;
     }
 }
+
+nav {
+    background: rgb(247,138,43);
+    background: linear-gradient(90deg, rgba(247,138,43,1) 54%, rgba(236,68,0,1) 73%);
+}
+
+@media (max-width: 990px) {
+    nav {
+        background: #343a4000;
+    }
+}
+
+.navbar-toggler-icon {
+    background: rgb(247,138,43);
+}
