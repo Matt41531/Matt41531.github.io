@@ -34,7 +34,7 @@ h1 {
     padding: 2% 5% 2% 2%;
 }
 p {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-family: "Sofia Sans Extra Condensed", sans-serif;
     line-height: 200%;
     color: white;
@@ -63,6 +63,8 @@ h3 {
 .character-picture {
     animation-name: shrinkIn;
     animation-duration: .5s;
+    position: relative;
+    bottom: 0;
 }
 
 @keyframes shrinkIn{
@@ -144,4 +146,12 @@ nav {
 
 .navbar-toggler-icon {
     background: rgb(247,138,43);
+}
+
+.nav-link {
+    font-size: 2rem;
+}
+
+.navbar {
+    width: 105%;
 }
