@@ -34,11 +34,11 @@ h1 {
     padding: 2% 5% 2% 2%;
 }
 p {
-    font-size: 1.75rem;
+    font-size: 1.85rem;
     font-family: "Sofia Sans Extra Condensed", sans-serif;
-    line-height: 200%;
+    line-height: 100%;
     color: white;
-    font-weight: 200;
+    font-weight: 400;
 }
 h2 {
     font-size: 2rem;
@@ -79,13 +79,19 @@ h3 {
 img:hover {
     -webkit-transform:scale(1.25);
     -moz-transform:scale(1.25);
-    transform:scale(1.25);
+    transform:scale(1.15);
     z-index:3;
 }
 
 @media (max-width: 425px) {
     .mobile-font-size {
       font-size: 11px;
+    }
+}
+
+@media (max-width: 425px) {
+    .mobile-font-size-16 {
+      font-size: 16px;
     }
 }
 
@@ -154,4 +160,33 @@ nav {
 
 .navbar {
     width: 105%;
+}
+
+.sparkadia-link {
+    color: black;
+}
+
+.sparkadia-link:hover {
+    color: rgb(247,138,43);
+}
+
+.footer {
+    text-align: center;
+    background: rgb(247,138,43);
+    background: linear-gradient(90deg, rgba(247,138,43,1) 54%, rgba(236,68,0,1) 73%);
+    padding: 10px;
+}
+
+.icons {
+    height: 2em;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 425px) {
+    .icons {
+        height: 1.6em;
+    }
 }

@@ -1,0 +1,7 @@
+Inksy is a bursty mage that requires combos to ensure her abilities land.
+
+You can hold Inksy's RMB and drag your mouse to draw the projectile path. Upon release, the projectile 
+will follow that path. Get creative with the shapes you draw to deal maximum damage!
+
+Inksy's Q meteor may seem difficult to hit at first, but with practice, her SPC and Ultimates can be used to help land it.
+A common combo is placing Q, then using SPC to knock enemies into it!
