@@ -1,0 +1,13 @@
+Snooker is a long ranged damage dealer that relies on precise aim and positioning to maximize DPS.
+
+Snooker's auto-attack can be charged up for extra damage and a knockback. 
+In addition, this LMB can be bounced off of walls and obstacles!
+
+Be sure to use his various knockbacks from LMB, RMB, and SPC to your advantage by knocking enemies into your
+Pocket (Q).
+
+Snooker is very vulnerable if he gets collapsed on. Work with your teammates to ensure you're the one putting
+out pressure vs getting pressured.
+
+Snooker's ultimate can be controlled with WASD and detonated early by pressing R again. Dmaage is also
+buffed by 800% if you say "HERE COMES THE SNOOKER SPECIAL" while casting it.

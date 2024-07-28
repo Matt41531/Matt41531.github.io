@@ -1,0 +1,8 @@
+Hotpaws is a big ol' lunky bruiser. Hotpaws excels at distrupting on the front line or driving the back liners further back away from the fight.
+
+Staying within range of enemies as Hotpaws eventually turns them HOT,
+signaled by a fire icon on their hero. Hotpaws can LMB attack them to heal himself and 
+deal %HP damage. Sometimes it better to switch targets often for maximum passive procs vs tunneling!
+
+Hotpaws' RMB can hit allies or enemies so you can use it not only to knock enemies into you (or the tower!),
+but also help allies escape sticky situations.
