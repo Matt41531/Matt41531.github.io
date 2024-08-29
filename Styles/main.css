@@ -14,7 +14,7 @@ h2 {
 .yellow-square {
     background-color: #FFC020;
     width: 19rem;
-    height: 15rem;
+    height: 15rem; 
     flex-shrink: 1;
     flex-grow: 0;
 }
@@ -68,6 +68,9 @@ img {
 }
 a {
     text-decoration: none;
+    width: 19rem;
+    height: 15rem; 
+    display: block;
 }
 a:hover {
     color: white;
@@ -108,3 +111,9 @@ img:hover {
       font-size: 11px;
     }
 }
+@media (max-width: 425px) {
+    .character-text-lg {
+        font-size: 4rem;
+    }
+}
+
