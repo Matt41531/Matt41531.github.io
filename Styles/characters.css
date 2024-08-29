@@ -40,6 +40,7 @@ p {
     line-height: 100%;
     color: white;
     font-weight: 400;
+    margin-top: 3rem;
 }
 h2 {
     font-size: 2rem;
@@ -61,12 +62,19 @@ h3 {
     0px 4px 4px black;
     text-align: center;
 }
+h4 {
+    color:navy;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+}
 .character-picture {
     animation-name: shrinkIn;
     animation-duration: .5s;
     position: relative;
     bottom: 0;
     overflow-x: hidden;
+    padding-top: 20%;
 }
 
 @keyframes shrinkIn{
@@ -193,5 +201,25 @@ nav {
 @media (max-width: 430px) {
     .icons {
         height: 1.6em;
+    }
+}
+
+.ability-text {
+    margin-top: 0rem;
+    padding-right: 1%;
+}
+
+.ability-icon {  
+    width: 100%;
+    margin-top: 75%;
+}
+
+.ability-group {
+
+}
+
+@media (max-width: 767px) {
+    h1 {
+        margin-left: 0rem;
     }
 }
